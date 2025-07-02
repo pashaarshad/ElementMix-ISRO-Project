@@ -1,0 +1,16 @@
+{
+  "reactions": [
+    {
+      "reactants": ["Na", "Cl"],
+      "product": "NaCl",
+      "equation": "2Na + Cl2 → 2NaCl",
+      "explanation": "Sodium reacts with chlorine to form sodium chloride (table salt)."
+    },
+    {
+      "reactants": ["H2", "O2"],
+      "product": "H2O",
+      "equation": "2H2 + O2 → 2H2O",
+      "explanation": "Hydrogen and oxygen form water."
+    }
+  ]
+}
