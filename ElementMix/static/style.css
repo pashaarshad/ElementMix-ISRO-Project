@@ -1,0 +1,87 @@
+.chem-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.chem-svg {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+}
+.subtitle {
+  text-align: center;
+  color: #4a6fa1;
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+}
+.footer-note {
+  text-align: center;
+  color: #aaa;
+  font-size: 0.95rem;
+  margin-top: 30px;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6fa;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+}
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+.or-divider {
+  text-align: center;
+  margin: 10px 0;
+  color: #888;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  color: #2a3b4c;
+}
+input, button {
+  font-size: 1rem;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button {
+  background: #2a7cff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #1a5dcc;
+}
+#output {
+  background: #f0f4fa;
+  border-radius: 6px;
+  padding: 16px;
+  margin-top: 16px;
+  min-height: 60px;
+  font-size: 1.05rem;
+  color: #2a3b4c;
+  white-space: pre-line;
+}

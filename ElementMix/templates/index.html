@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ElementMix – Chemical Reaction Simulator</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="chem-header">
+      <img src="/static/chem.svg" alt="Chemistry" class="chem-svg" />
+      <h1>ElementMix</h1>
+    </div>
+    <p class="subtitle">Simulate chemical reactions with ease</p>
+    <div class="input-group">
+      <label for="element1">Element 1:</label>
+      <select id="element1"></select>
+      <label for="element2">Element 2:</label>
+      <select id="element2"></select>
+    </div>
+    <div class="or-divider">OR</div>
+    <div class="input-group">
+      <label for="inputR">R Option (type your own):</label>
+      <input type="text" id="inputR" placeholder="e.g. Na+Cl" />
+    </div>
+    <button id="reactBtn">React</button>
+    <div id="output"></div>
+    <div class="footer-note">Powered by ElementMix | For education only</div>
+  </div>
+  <script src="/static/elements.js"></script>
+  <script src="/static/script.js"></script>
+</body>
+</html>
