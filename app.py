@@ -4,7 +4,7 @@ import json
 import os
 from dotenv import load_dotenv
 import openai
-
+# ok
 load_dotenv()
 
 app = Flask(__name__)
